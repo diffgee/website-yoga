@@ -40,11 +40,10 @@ img.emoji {
 <link rel="stylesheet" id="elementor-post-36-css" href="/wp-content/uploads/elementor/css/post-36.css?ver=1685643136" media="all">
 <link rel="stylesheet" id="elementor-post-23-css" href="/wp-content/uploads/elementor/css/post-23.css?ver=1685663127" media="all">
 <link rel="stylesheet" id="hfe-widgets-style-css" href="/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14" media="all">
-<link rel="stylesheet" id="elementor-post-51-css" href="/wp-content/uploads/elementor/css/post-51.css?ver=1685643136" media="all">
-<link rel="stylesheet" id="elementor-post-217-css" href="/wp-content/uploads/elementor/css/post-217.css?ver=1685643136" media="all">
+<link rel="stylesheet" id="elementor-post-51-css" href="/wp-content/uploads/elementor/css/post-51.css?ver=1686343996" media="all">
+<link rel="stylesheet" id="elementor-post-217-css" href="/wp-content/uploads/elementor/css/post-217.css?ver=1686344010" media="all">
 <link rel="stylesheet" id="hello-elementor-css" href="/wp-content/themes/hello-elementor/style.min.css?ver=2.7.1" media="all">
 <link rel="stylesheet" id="hello-elementor-theme-style-css" href="/wp-content/themes/hello-elementor/theme.min.css?ver=2.7.1" media="all">
-<link rel="stylesheet" id="copy-to-clipboard-css" href="/wp-content/plugins/copy-to-clipboard/assets/css/copy-to-clipboard.min.css?ver=6.2.2" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
@@ -78,6 +77,20 @@ img.emoji {
 		<style id="wp-custom-css">.display {
 	font: 18pt "Brasika Display", serif;
 	color: #628B37;
+}
+
+textarea {
+  width: ;
+  height: 150px;
+	margin: 4px 0px 12px 0px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+input[type=text] {
+  width: ;
+  margin: 4px 0px 12px 0px;
+  box-sizing: border-box;
 }</style>
 		</head>
 
@@ -467,22 +480,6 @@ var copyTheCode = {"trim_lines":"","remove_spaces":"1","copy_content_as":"","pre
 </script>
 <script src="/wp-content/plugins/copy-the-code/assets/js/copy-the-code.js?ver=2.6.2" id="copy-the-code-js"></script>
 <script src="/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0" id="hello-theme-frontend-js"></script>
-<script src="/wp-content/plugins/copy-to-clipboard/assets/js/clipboard.min.js?ver=1.0.1" id="copy-to-clipboard-js"></script>
-<script id="copy-to-clipboard-js-after">let copy2clipBtn = document.querySelector(".copy2clip-btn");
-            var clipboard = new ClipboardJS(".copy2clip-btn");
-            let clearCopyText;
-
-            clipboard.on("success", function (e) {
-                copy2clipBtn.innerHTML = "Copied";
-                clearInterval(clearCopyText);
-                clearCopyText = setTimeout(() => {
-                    copy2clipBtn.innerHTML = "Copy";
-                }, 5000);
-            });
-
-            clipboard.on("error", function (e) {
-                console.log(e);
-            });</script>
 <script src="/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14" id="hfe-frontend-js-js"></script>
 <script src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.13.4" id="elementor-webpack-runtime-js"></script>
 <script src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.13.4" id="elementor-frontend-modules-js"></script>
